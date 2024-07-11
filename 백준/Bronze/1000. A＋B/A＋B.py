@@ -1,8 +1,3 @@
-A,B = input().split()
+a, b = map(int, input().split())
 
-A= int(A)
-B= int(B)
-
-addResult = (A + B)
-
-print(addResult)
+print(a+b)
